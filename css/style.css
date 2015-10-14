@@ -29,7 +29,7 @@ body {
 	background: url("../images/transparent.jpg");
 }
 
-/* Header class CSS */
+/* Heading section CSS */
 
 .heading img {
 	max-width: 400px;
@@ -42,5 +42,57 @@ body {
 	font-weight: bolder;
 	letter-spacing: 0.1rem;
 	color: #fff;
-	margin-bottom: 1.75rem;
+	padding-bottom: 1.5rem;
 }
+
+/* Input section CSS */
+
+.input-section {
+	padding-bottom: 2rem;
+}
+
+.input-section #job-title {
+	font-size: 1.25rem;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 0.02rem;
+	padding: 0.25rem;
+	margin-right: 1rem;	
+}
+
+.input-section #job-title:focus {
+	outline: none;
+}
+
+.input-section select {
+	font-size: 1.25rem;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 0.02rem;
+	padding: 0.5rem;
+	margin-right: 1rem;	
+}
+
+.input-section .searchButton {
+	font-size: 1rem;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 0.02rem;
+	padding: 0.5rem;
+	border: none;
+	border-radius: 0.25rem;
+}
+
+.input-section .searchButton:focus {
+	outline: none;
+}
+
+.input-section .searchButton:hover {
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
