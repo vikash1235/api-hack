@@ -38,7 +38,7 @@ body {
 }
 
 .heading h1 {
-	font-size: 2.5rem;
+	font-size: 2.75rem;
 	font-weight: bolder;
 	letter-spacing: 0.1rem;
 	color: #fff;
@@ -54,6 +54,7 @@ body {
 .input-section #job-title {
 	font-size: 1.25rem;
 	font-family: 'Josefin Sans', sans-serif;
+	width: 30%;
 	letter-spacing: 0.02rem;
 	padding: 0.25rem;
 	margin-right: 1rem;	
@@ -71,7 +72,7 @@ body {
 	margin-right: 1rem;	
 }
 
-.input-section .searchButton {
+.input-section .search {
 	font-size: 1rem;
 	font-family: 'Josefin Sans', sans-serif;
 	letter-spacing: 0.02rem;
@@ -80,19 +81,47 @@ body {
 	border-radius: 0.25rem;
 }
 
-.input-section .searchButton:focus {
+.input-section .search:focus {
 	outline: none;
 }
 
-.input-section .searchButton:hover {
+.input-section .search:hover {
 	cursor: pointer;
 }
 
+/* Job listings CSS */
 
+.job-listings {
+	text-align: center;
+	color: #fff;
+	padding: 4rem 0;
+}
 
+.job-details p, h3, h4 {
+	margin: 1rem;
+}
 
+.job-details a {
+	font-size: 1.75rem;
+	color: #2E64FE;
+}
 
+.job-details p {
+	font-size: 1.25rem;
+}
 
+.job-details h3 {
+	font-size: 1.5rem;
+}
 
+.job-details h4 {
+	font-size: 1.25rem;
+	padding-bottom: 1rem;
+	/*border-bottom: 1px solid #777;*/
+}
 
-
+.job-details hr {
+	font-style: 1px solid #666;
+	width: 60%;
+	margin-top: 0.25rem;
+}
