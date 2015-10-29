@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Find Your Dream Job</title>
+	<title>Find Your Recipe</title>
 	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="js/app.js"></script>
@@ -13,36 +13,48 @@
 	<div class="background-image"></div>
 	<div id="wrapper">
 		<header class="heading">
-			<img src="images/logo.jpg" alt="LinkedIn Logo">
-			<h1>JOB SEARCH</h1>
+			<h1>RECIPE SEARCH</h1>
+			<p>There are 3 things you could do with this app. If you have a recipe in mind, search directly by name leaving out the Cuisine dropdown menu. If you want to search recipes by cuisine, leave the field blank, choose a cuisine and click on Search. Lastly, type keywords like Milk, Eggs or other ingredients, choose a cuisine and hit Seach.</p>
+			<p>Be ready to be blown out by a variety of recipes!!</p>
 		</header>
 
 		<section class="input-section">
-
-			<input id="job-title" type="text" placeholder="Enter a job title...">
-			<select name="locations" id="job-location">
-				<option disabled selected value="choose location">Please choose a location</option>
-				<option value="cupertino">Cupertino, California</option>
-				<option value="fremont">Fremont, California</option>
-				<option value="mountain-view">Mountain View, California</option>
-				<option value="palo-alto">Palo Alto, California</option>
-				<option value="santa-clara">Santa Clara, California</option>
-				<option value="san-francisco">San Francisco, California</option>
-				<option value="san-jose">San Jose, California</option>
-				<option value="san-mateo">San Mateo, Californa</option>
-				<option value="sunnyvale">Sunnyvale, California</option>
+			<input id="ingredient" type="text" placeholder="Enter something...">
+			<select name="cuisines" id="cuisine-name">
+				<option disabled selected value="choose cuisine">Please choose a Cuisine</option>
+				<option value="american">American</option>
+				<option value="italian">Italian</option>
+				<option value="asian">Asian</option>
+				<option value="mexican">Mexican</option>
+				<option value="southern">Southern & Soul Food</option>
+				<option value="french">French</option>
+				<option value="southwestern">Southwestern</option>
+				<option value="barbecue">Barbecue</option>
+				<option value="indian">Indian</option>
+				<option value="chinese">Chinese</option>
+				<option value="cajun">Cajun & Creole</option>
+				<option value="english">English</option>
+				<option value="mediterranean">Mediterranean</option>
+				<option value="greek">Greek</option>
+				<option value="spanish">Spanish</option>
+				<option value="german">German</option>
+				<option value="thai">Thai</option>
+				<option value="moroccan">Moroccan</option>
+				<option value="irish">Irish</option>
+				<option value="japanese">Japanese</option>
+				<option value="cuban">Cuban</option>
+				<option value="hawaiin">Hawaiin</option>
+				<option value="swedish">Swedish</option>
+				<option value="hungarian">Hungarian</option>
+				<option value="portugese">Portugese</option>
 			</select>
-			<input type="submit" id="searchButton" class="search" value="Search"> 
+			<button id="searchButton" class="search">Search</button>  
 		</section>
 
-		<section class="job-listings">
-			<div class="job-details">
-				<a target="_blank" href="https://www.linkedin.com"><h2>Frontend Developer</h2></a>
-				<p>Trunomi</p>
-				<h3>San Jose, CA</h3>
-				<h4>Oct 6, 2015</h4>
-				<hr>
-			</div>
+		<section class="recipe-list">
+			<ul class="recipe-details">
+				
+			</ul>
 		</section>
 	</div>
 </body>
